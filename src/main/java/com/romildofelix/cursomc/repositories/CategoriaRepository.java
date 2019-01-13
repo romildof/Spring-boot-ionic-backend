@@ -10,7 +10,6 @@ import com.romildofelix.cursomc.domain.Categoria;
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Integer>{
 
-	Optional<Categoria> findById(Integer id);
-	
+	Optional<Categoria> findById(Integer id);	
 
 }

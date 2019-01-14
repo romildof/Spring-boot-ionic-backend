@@ -11,5 +11,4 @@ import com.romildofelix.cursomc.domain.Cliente;
 public interface ClienteRepository extends JpaRepository<Cliente, Integer>{
 
 	Optional<Cliente> findById(Integer id);	
-
 }
